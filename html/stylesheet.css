@@ -1,0 +1,165 @@
+body, header, nav, main, footer, h1, div, ul, figure, figcaption, section, article, aside, audio, video, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: lightgray;
+}
+
+img, video {
+    max-width: 100%;
+    display: block;
+}
+
+/*style apply to all elements */
+* {
+    box-sizing: border-box;
+}
+
+header {
+    top: 0;
+    background-color: #000;
+    height: 190px;
+}
+
+h1 {
+    color: white;
+    text-align: left;
+}
+
+header img {
+    margin: 0 auto;
+}
+
+/*mobile navs*/
+
+/*show mobile, hide tablet-desktop + menu-links id*/
+.mobile {
+    display: block;
+}
+
+.tablet-desktop, #menu-links {
+    display:none;
+}
+
+/*style for main content*/
+main {
+    background-color: lightgrey;
+    padding: 2%;
+    font-size: 1.15em;
+    font-family: 'roboto slab', sans-serif;
+}
+
+/*video {
+    margin: 0 auto 4%;
+}*/
+
+.mobile h3 {
+    text-shadow: 5px 5px 8px grey;
+}
+
+article {
+    padding: 2%;
+}
+
+article h3 {
+    text-align: center;
+}
+
+/*more article stuff*/
+
+.tel-link {
+    background-color: grey;
+    padding: 2%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.tel-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+}
+
+/*contact*/
+
+/*media query for tablet*/
+@media screen and (min-width: 630px), print {
+
+    .tablet-desktop {
+        display: block;
+    }
+
+    .mobile, .mobile-nav {
+        display: none;
+    }
+
+    header {
+        padding-bottom: 2%;
+    }
+
+    nav {
+        padding: 1%;
+        margin-bottom: 1%;
+        background-color: black;
+    }
+
+    nav ul {
+        list-style-type: none;
+        text-align: center;
+    }
+
+    nav li {
+        font-size: 1.5em;
+        font-family: 'roboto slab', sans-serif;
+        display: inline-block;
+        border-right: 1px solid #fff;
+    }
+
+    nav li:last-child {
+        border-right: none;
+    }
+
+    nav li a {
+        padding: 0.1em 0.75em;
+        display: block;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    nav li a:hover {
+        color: blue;
+        background-color: #fff;
+        transform: scale(1);
+    }
+
+    main ul {
+        margin: 0 0 4% 10%;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 20px;
+    }
+
+    /*pic text*/
+
+    /*aside*/
+
+    .grid-item4 {
+        grid-column: 1 / span 3;
+    }
+
+    .tel-num {
+        font-size: 1.25em;
+    }
+
+    /*map*/
+
+}
