@@ -8,6 +8,7 @@ body {
     background-color: lightgray;
 }
 
+
 img, video {
     max-width: 100%;
     display: block;
@@ -21,9 +22,13 @@ img, video {
 header {
     top: 0;
     background-color: #000;
-    height: 190px;
+    height: 100px;
 }
 
+footer {
+    text-align: center;
+
+}
 h1 {
     color: white;
     text-align: left;
@@ -133,11 +138,59 @@ article h3 {
         grid-gap: 20px;
     }
 
+   
     /*pic text*/
+    
+    /*home frame attributes*/
+
+    .frame {
+        position:relative;
+        max-width: 590px;
+        margin:2% auto;
+    }
+    .frame {
+        opacity: 0.9;
+    }
+
+    .frame:hover {
+        opacity: 1;
+        box-shadow: 8px 8px 10px #808080;
+        transform: translateY(10px);
+    }
+
+    main ul {
+        margin: 0 0 4% 10%;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 20px;
+    }
+
+    .pic-text {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    .pic-text {
+        position: absolute;
+        bottom: 0;
+        background: rgba(0,0,0, 0.5);
+        color: #fff;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        font-family: Verdana, Arial, sans-serif;
+        font-size: 1.5em;
+        font-weight: bold;
+  
+  
+    }
 
     /*aside*/
 
-    .grid-item4 {
+  .grid-item4 {
         grid-column: 1 / span 3;
     }
 
