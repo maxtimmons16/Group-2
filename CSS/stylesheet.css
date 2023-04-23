@@ -41,7 +41,7 @@ header img {
 }
 
 .tablet-desktop, #menu-links {
-    display:none;
+    display: none;
 }
 
 /*style for main content*/
@@ -51,6 +51,7 @@ main {
     font-size: 1.15em;
     font-family: 'roboto slab', sans-serif;
 }
+
 
 /*video {
     margin: 0 auto 4%;
@@ -69,22 +70,6 @@ article h3 {
 }
 
 /*more article stuff*/
-
-.tel-link {
-    background-color: grey;
-    padding: 2%;
-    margin: 0 auto;
-    width: 80%;
-    text-align: center;
-    border-radius: 5px;
-}
-
-.tel-link a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.5em;
-    display: block;
-}
 
 /*contact*/
 
@@ -162,4 +147,110 @@ article h3 {
 
     /*map*/
 
+    #form {
+        margin-top: 2%;
+        background-color: lightgrey;
+        padding: 2%;
+    }
+
+    #form h2 {
+        text-align: center;
+    }
+
+    /*form elements style rules*/
+
+    /*Tablet viewport table rules*/
+    table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    /*other rules*/
+
+    /*form element rules- tablet*/
+
+}
+
+/*media query desktop*/
+@media screen and (min-width: 1015px), print {
+
+    /*header*/
+    header {
+        width: 25%;
+        float: left;
+        padding-bottom: 0%;
+    }
+
+    /*nav*/
+    nav {
+        float: right;
+        width: 70%;
+        margin: 4em 1em 0 0;
+    }
+
+    nav ul {
+        text-align: right;
+    }
+
+    nav li {
+        border: none;
+    }
+
+    nav li a {
+        padding: 0.5em 1em;
+    }
+
+    /*main*/
+    main {
+        clear: left;
+    }
+
+    main h2 {
+        font-size: 1.8em;
+        color: #000;
+    }
+
+    article h3 {
+        font-size: 1.75em;
+    }
+
+    /*form elements*/
+
+}
+
+/*large desktop media query*/
+@media screen and (min-width: 1921px) {
+    #container {
+        width: 1920px;
+        margin: 0 auto;
+    }
+
+    table {
+        width: 80%;
+    }
+
+}
+
+/*media query for print*/
+@media print {
+
+    body {
+        background-color: lightgrey;
+        color: black;
+    }
+}
+
+/*style rules for footer*/
+footer p {
+    font-size: 0.75em;
+    text-align: center;
+    color: black;
+    padding: 0 1em;
+}
+
+footer p a {
+    color: darkslateblue;
+    text-decoration: none;
 }
