@@ -5,7 +5,7 @@ body, header, nav, main, footer, h1, div, ul, figure, figcaption, section, artic
 }
 
 body {
-    background-color: lightgray;
+    background-color: black;
 }
 
 
@@ -299,7 +299,7 @@ article h3 {
 footer p {
     font-size: 0.75em;
     text-align: center;
-    color: black;
+    color: white;
     padding: 0 1em;
 }
 
