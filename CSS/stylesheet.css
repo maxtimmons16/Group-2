@@ -81,7 +81,7 @@ article h3 {
 /*media query for tablet*/
 @media screen and (min-width: 630px), print {
 
-    .tablet-desktop {
+   * .tablet-desktop {
         display: block;
     }
 
