@@ -38,7 +38,26 @@ header img {
     margin: 0 auto;
 }
 
-/*mobile navs*/
+nav.mobile-nav {
+    display: block;
+}
+
+.mobile-nav a {
+    color: #fff;
+    font-family: 'roboto slab', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    padding: 3%;
+    display: block;
+}
+
+.mobile-nav a.menu-icon {
+    display: block;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
 
 /*show mobile, hide tablet-desktop + menu-links id*/
 .mobile {
