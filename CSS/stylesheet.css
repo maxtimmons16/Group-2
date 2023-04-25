@@ -22,7 +22,7 @@ img, video {
 header {
     top: 0;
     background-color: #000;
-    height: 100px;
+    height: 40px;
 }
 
 footer {
@@ -69,6 +69,11 @@ nav.mobile-nav {
 }
 
 /*style for main content*/
+
+video {
+    margin: 0 auto 0%;
+}
+
 main {
     background-color: lightgrey;
     padding: 2%;
@@ -93,6 +98,16 @@ article h3 {
     text-align: center;
 }
 
+.aboutus h3 {
+    text-align: center;
+}
+.aboutus h1 {
+    text-align: center;
+}
+
+.title h1 {
+    text-align: center;
+}
 /*more article stuff*/
 
 /*contact*/
