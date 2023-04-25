@@ -39,7 +39,7 @@ header img {
 }
 
 nav.mobile-nav {
-    display: block;
+    /*display: block;*/
 }
 
 .mobile-nav a {
@@ -110,6 +110,7 @@ article h3 {
 
     header {
         padding-bottom: 2%;
+        width: 25%;
     }
 
     nav {
