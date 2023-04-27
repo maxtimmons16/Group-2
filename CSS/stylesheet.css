@@ -340,3 +340,10 @@ footer p a {
     color: darkslateblue;
     text-decoration: none;
 }
+
+
+#twitter, #instagram, #youtube {
+    width: 29%;
+    float: left;
+    margin: 0 2%;
+}
